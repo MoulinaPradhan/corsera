@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="width=device-width,initial-scale=1">
+    <title>The editors</title>
+    <style>
+        .header{
+            display:flex;
+            background-color:black;
+            padding: 15px;
+            font-family: cursive;
+            font-size: 25px;
+            color: aliceblue;
+            text-transform: capitalize;
+        }
+        .nav{
+            display: flex;
+            background:black;
+            text-transform: uppercase;
+            padding:0;
+            font-family: cursive;
+        }
+         .top-navigation-link {
+        height: 18px;
+        position: relative;
+        width: 225px;
+             font-family: cursive;
+             font-size: 18px;
+             }.top-navigation-link:before,
+      .top-navigation-link:after {
+        text-align: center;
+        line-height: 18px;
+        content: attr(title);
+        position: absolute;
+        left: 0;
+        right: 0;
+        transition: 250ms;
+      }.top-navigation-link:before {
+        top: -10px;
+        left: -10px;
+        color:black;
+      } .top-navigation-link:after {
+        color: red;
+      }
+        .top-navigation-link:before {
+        top: 0;
+        filter: blur(0);
+        opacity: 1;
+        background-color: whitesmoke;
+            color: black;
+      }
+      .top-navigation-link:after {
+        top: 28px;
+        filter: blur(5px);
+        opacity: 0;
+        background-color:coral;
+      }.top-navigation-link:hover:before {
+        top: -28px;
+        filter: blur(5px);
+        opacity: 0;
+      }.top-navigation-link:hover:after {
+        top: 0;
+        filter: blur(0);
+        opacity: 1;
+      }.top-navigation-menu {
+        display: flex;
+        text-transform: uppercase;
+        font-family: Arial;
+      }
+      .top-navigation-link:before,
+      .top-navigation-link:after {
+        text-align: center;
+        line-height: 28px;
+        content: attr(title);
+        position: absolute;
+        left: 0;
+        right: 0;
+	transition: 250ms;
+	color: black;
+      }
+        footer{
+            display: block;
+            background: black;
+            padding: 10px;
+        }
+        .go{
+            font-family: sans-serif;
+            position:absolute;
+            top:14%;
+            left:40%;
+            text-align: center;
+            text-transform: capitalize;
+            color: red;
+            font-size: 40px;
+        }
+        .main{
+            font-family: sans-serif;
+            position: absolute;
+            padding: 25px;
+            top:25%;
+            left:6%;
+            font-size: 25px;
+        }
+        .advertisement{
+            font-family: cursive;
+            display:inline-grid;
+            position:absolute;
+            left:78%;
+            border: 2px solid black;
+            background:yellowgreen;
+            padding: 20px;
+            padding-right: 20px;
+            text-align: center;
+            top:18%;
+        }
+        h2{
+            color: red;
+        }
+        ul{font-family: cursive;
+        color:blueviolet;}
+</style>
+    </head>
+    <body>
+        <header class="header">python classes</header>
+           <nav class="nav">
+  <a class="top-navigation-link" href="login2.html" title="Login page"></a>
+  <a class="top-navigation-link" href="" title="Home"></a>
+               <a class="top-navigation-link" href="#" title="about"></a></nav>
+        <div class="go"><h2>let's begin </h2></div>
+        <div class="main"><p>For starting our work in python first we need to have an editor or IDE. installed in our systems.</p>
+            <p>
+IDE stands for Integrated Development Environment. It is a Graphical User Interface (GUI) based software which allows the programmers to write, debug, release, and deploy their code. </p>
+            <p>If you search you can find a number of editors.</p>
+            <p>Some of them are:</p>
+            <ul><li>PyDev</li><li>
+            Rodeo</li><li>
+            Sublime Text</li>
+            <li>Wing</li>
+            <li>Spyder          
+                </li>
+                <li>IDLE</li>
+                <li>Visual Studio Code</li>
+                <li></li>
+            </ul>
+            <p>You can download these editors. The links are provided in the download section.</p>
+        </div> 
+        <section class="advertisement">
+                 <h2>Download links:</h2>
+                 <p></p>
+                 <p>Advertise here!</p>
+                 </section>
+        <footer></footer>
+    </body>
+</html>
